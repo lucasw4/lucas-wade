@@ -13,8 +13,10 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='bg-gray-900 text-gray-100'>
-        <NavBar />
-        <Header />
+        <div className='bg-gradient-to-b from-gray-700 via-gray-800 to-gray-900'>
+          <NavBar />
+          <Header />
+        </div>
         <Portfolio />
       </main>
     </>

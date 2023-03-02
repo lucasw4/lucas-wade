@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <section className='flex-col pl-0 pt-16 w-screen justify-center text-center bg-gray-900'>
+    <section className='flex-col pl-0 pt-16 w-screen justify-center text-center'>
       <h1 className='text-3xl font-extrabold'>
         {"I'm"} <span className='text-purple-500'>Lucas</span>
       </h1>
