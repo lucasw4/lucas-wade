@@ -1,4 +1,5 @@
 import Card from "@/components/Card";
+import HeaderText from "@/components/HeaderText";
 import React from "react";
 
 const projects = [
@@ -6,7 +7,7 @@ const projects = [
     id: 1,
     title: "Random Decision Maker",
     summary: "Uses a roulette wheel to animate the choosing of a random idea.",
-    image: "/images/decision-maker-final.png",
+    image: "/images/decision-maker.png",
     link: "https://github.com/lucasw4/random-decision-maker",
     stack: "React, Tailwind",
   },
@@ -40,14 +41,15 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className='bg-gray-900 py-8'>
+    <div className='bg-gray-900 py-8' id='portfolio--section'>
+      <HeaderText message='Projects' />
       <div className='container mx-auto'>
-        <h1 className='text-3xl font-bold text-center mb-8'>Portfolio</h1>
+        <div className='h-24'></div>
         <div className='flex flex-wrap -mx-4'>
           {projects.map((project) => (
             <div
               key={project.id}
-              className='w-96 mx-auto flex-col items-center sm:w-1/2 lg:w-1/4 mb-14 transition-all hover:scale-105'
+              className='w-96 mx-auto flex-col items-center sm:w-1/2 md:flex-row mb-14 transition-all hover:scale-105'
             >
               <Card
                 title={project.title}

@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = ({ title, summary, image, link, stack }) => {
   return (
-    <div className='bg-gray-800  rounded-lg shadow-md w-96 h-72 mb-16 mx-auto p-4 relative overflow-visible'>
+    <div className='bg-gray-800 rounded-lg shadow-md w-96 xl:w-[35rem] h-72 mb-16 mx-auto p-4 relative overflow-visible'>
       <div className='absolute -top-20 w-96 h-40 z-10 '>
         <Image
           src={image}
@@ -21,7 +21,7 @@ const Card = ({ title, summary, image, link, stack }) => {
           <a
             href={link}
             target='_blank'
-            className='text-white font-bold py-2 px-4 hover:text-purple-500'
+            className='text-white font-bold py-2 px-4 hover:text-purple-500 border-b transition-all border-purple-500 hover:border-none'
           >
             View Project
           </a>
