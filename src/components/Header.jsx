@@ -4,7 +4,7 @@ import ParticlesComponent from "./Particles";
 
 const Header = () => {
   return (
-    <section className='flex-col pl-0 w-full h-[44rem] justify-center text-center relative border-b-2 border-gray-700'>
+    <section className='flex-col pl-0 w-full h-[44rem] justify-center text-center relative'>
       <div className=''>
         <ParticlesComponent />
       </div>

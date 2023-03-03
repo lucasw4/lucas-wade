@@ -15,9 +15,9 @@ const Contact = () => {
         </p>
       </div>
       <div className='text-xl px-5 pt-2 pb-20 flex justify-center'>
-        <p>
+        <div>
           <strong className='text-purple-500 ml-4'>(778)-836-9908</strong>
-        </p>
+        </div>
       </div>
     </section>
   );
