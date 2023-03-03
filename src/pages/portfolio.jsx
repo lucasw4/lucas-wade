@@ -62,6 +62,17 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
+      <div className='flex justify-center'>
+        <a
+          href='#'
+          className='text-4xl font-bold transition-all hover:scale-110 hover:text-purple-500 text-center'
+        >
+          View More on my{" "}
+          <strong className='underline hover:no-underline transition ease-in-out duration-500'>
+            GitHub
+          </strong>
+        </a>
+      </div>
     </div>
   );
 };
