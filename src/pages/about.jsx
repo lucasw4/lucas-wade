@@ -9,8 +9,8 @@ const About = () => {
       className='mt-72 mb-72 md:mt-72 md:mb-0 md:h-[44rem]'
     >
       <HeaderText message='About Me' />
-      <div className='2xl:mx-[40rem] flex flex-col h-[40rem]'>
-        <div className='h-full flex flex-col justify-center'>
+      <div className='lg:mx-32 flex flex-col h-[40rem] lg:justify-center lg:items-center'>
+        <div className='h-full flex flex-col justify-center lg:w-1/2'>
           <div className='py-4 pl-4'>
             I recently graduated from the Lighthouse Labs Full-Stack web
             developer bootcamp and have been able to develop my skills in the
