@@ -4,15 +4,15 @@ import ParticlesComponent from "./Particles";
 
 const Header = () => {
   return (
-    <section className='flex-col pl-0 w-full h-96 justify-center text-center relative border-b-2 border-gray-700'>
+    <section className='flex-col pl-0 w-full h-[44rem] justify-center text-center relative border-b-2 border-gray-700'>
       <div className=''>
         <ParticlesComponent />
       </div>
 
-      <div className='z-10 absolute w-screen top-1/4 flex justify-center'>
+      <div className='z-10 absolute w-screen top-60 flex justify-center'>
         <div className='w-60 bg-gray-900 rounded-lg py-4 shadow-2xl'>
-          <h1 className='text-3xl font-extrabold pb-2'>
-            {"I'm"} <span className='text-purple-500'>Lucas</span>
+          <h1 className='text-4xl font-bold pb-2'>
+            {"I'm"} <span className='text-purple-500 font-bold'>Lucas</span>
           </h1>
           <p>A full stack Web Developer.</p>
           <div className='w-full flex justify-center pb-2 pt-4'>
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className='h-12'></div>
+      <div className='h-20'></div>
     </section>
   );
 };

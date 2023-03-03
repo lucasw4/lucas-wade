@@ -4,9 +4,9 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const About = () => {
   return (
-    <section id='about--section'>
+    <section id='about--section' className='mt-72 mb-72'>
       <HeaderText message='About Me' />
-      <div className='mb-10'>
+      <div className='mb-10 2xl:mx-[40rem]'>
         <p className='py-4 pl-4'>
           As a graduate of the Lighthouse Labs Full-Stack web developer
           bootcamp, I have honed my skills in the latest web development
