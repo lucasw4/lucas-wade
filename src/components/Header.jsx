@@ -1,16 +1,17 @@
+import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiOutlineDown } from "react-icons/ai";
 import ParticlesComponent from "./Particles";
 
 const Header = () => {
   return (
-    <section className='flex-col pl-0 w-full h-[44rem] justify-center text-center relative'>
+    <section className='flex-col pl-0 w-full h-[44rem] md:h-screen justify-center text-center relative'>
       <div className=''>
         <ParticlesComponent />
       </div>
 
-      <div className='z-10 absolute w-screen top-60 flex justify-center'>
-        <div className='w-60 bg-gray-900 rounded-lg py-4 shadow-2xl'>
+      <div className='z-10 absolute w-screen top-1/3 flex justify-center'>
+        <div className='w-60 bg-gray-900 rounded-lg py-4 shadow-lg shadow-black'>
           <h1 className='text-4xl font-bold pb-2'>
             {"I'm"} <span className='text-purple-500 font-bold'>Lucas</span>
           </h1>
@@ -30,6 +31,14 @@ const Header = () => {
             >
               <AiFillLinkedin />
             </a>
+          </div>
+          <div className='flex justify-center'>
+            <Link
+              href='#about--section'
+              className='text-xl transition-all hover:scale-125 hover:text-purple-500'
+            >
+              <AiOutlineDown />
+            </Link>
           </div>
         </div>
       </div>

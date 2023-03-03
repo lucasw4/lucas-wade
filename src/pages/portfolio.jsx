@@ -43,13 +43,13 @@ const Portfolio = () => {
   return (
     <div className='bg-gray-900 py-8' id='portfolio--section'>
       <HeaderText message='Projects' />
-      <div className='container mx-auto'>
+      <div className='container mx-auto mt-32'>
         <div className='h-24'></div>
         <div className='flex flex-wrap -mx-4'>
           {projects.map((project) => (
             <div
               key={project.id}
-              className='w-96 mx-auto flex-col items-center sm:w-1/2 md:flex-row mb-14 transition-all hover:scale-105'
+              className='w-96 mx-auto flex-col items-center sm:w-1/2 md:flex-row mb-14'
             >
               <Card
                 title={project.title}
