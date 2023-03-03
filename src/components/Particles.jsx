@@ -32,7 +32,7 @@ const options = {
         quantity: 4,
       },
       repulse: {
-        distance: 50,
+        distance: 100,
         duration: 0.4,
       },
     },
