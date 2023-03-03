@@ -7,6 +7,7 @@ const NavItem = (props) => {
       <Link
         href={`#${props.section}`}
         className='hover:text-purple-500 px-2 py-2 '
+        scroll={false}
       >
         {props.message}
       </Link>

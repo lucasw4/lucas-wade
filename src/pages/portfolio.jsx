@@ -64,8 +64,9 @@ const Portfolio = () => {
       </div>
       <div className='flex justify-center'>
         <a
-          href='#'
+          href='https://github.com/lucasw4'
           className='text-4xl font-bold transition-all hover:scale-110 hover:text-purple-500 text-center'
+          target='_blank'
         >
           View More on my{" "}
           <strong className='underline hover:no-underline transition ease-in-out duration-500'>

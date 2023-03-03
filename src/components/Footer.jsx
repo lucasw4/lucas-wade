@@ -21,12 +21,13 @@ const Footer = () => {
           <AiFillLinkedin />
         </a>
       </div>
-      <div className='flex justify-center pb-10'>
+      <div className='flex justify-center pb-2'>
         <ul className='flex justify-center w-1/2'>
           <li className='transition-all hover:scale-110'>
             <Link
               href='#about--section'
               className='hover:text-purple-500 px-2 py-2 '
+              scroll={false}
             >
               About
             </Link>
@@ -35,16 +36,30 @@ const Footer = () => {
             <Link
               href='#portfolio--section'
               className='hover:text-purple-500 px-2 py-2 '
+              scroll={false}
             >
               Projects
             </Link>
           </li>
           <li className='transition-all hover:scale-110'>
-            <a href='#nav--bar' className='hover:text-purple-500 px-2 py-2 '>
+            <Link
+              href='#nav--bar'
+              className='hover:text-purple-500 px-2 py-2 '
+              scroll={false}
+            >
               Top
-            </a>
+            </Link>
           </li>
         </ul>
+      </div>
+      <div className='flex justify-center text-gray-400 mb-10'>
+        <a
+          href='https://github.com/lucasw4/lucas-sahota'
+          target='_blank'
+          className='hover:text-purple-500 transition-all hover:scale-110'
+        >
+          Source Code
+        </a>
       </div>
     </section>
   );

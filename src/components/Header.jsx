@@ -35,7 +35,8 @@ const Header = () => {
           <div className='flex justify-center'>
             <Link
               href='#about--section'
-              className='text-xl transition-all hover:scale-125 hover:text-purple-500'
+              className='text-xl transition-all hover:text-purple-500 animate-bounce'
+              scroll={false}
             >
               <AiOutlineDown />
             </Link>
