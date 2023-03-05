@@ -10,7 +10,7 @@ const NavBar = () => {
       <nav className='flex justify-between p-3 mb-12'>
         <div className='text-xs md:text-xl flex items-center'>
           <h1>
-            lucas<strong className=''>Sahota</strong>
+            lucas<strong className=''>Wade</strong>
           </h1>
         </div>
         <ul className='flex'>

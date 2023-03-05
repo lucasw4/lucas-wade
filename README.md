@@ -1,10 +1,10 @@
-# Lucas-Sahota
+# Lucas-Wade
 
 This is my portfolio website, built with NextJS and TailwindCSS.
 
 ## Demo
 
-https://lucas-sahota.vercel.app/
+https://www.lucaswade.dev
 
 ## Setting up Locally
 
