@@ -8,8 +8,13 @@ const NavBar = () => {
       className='h-12 bg-gray-900 border-b border-gray-700'
     >
       <nav className='flex justify-between p-3 mb-12'>
-        <h1 className='text-xl'>lucasSahota</h1>
+        <div className='text-xs md:text-xl flex items-center'>
+          <h1>
+            lucas<strong className=''>Sahota</strong>
+          </h1>
+        </div>
         <ul className='flex'>
+          <NavItem message='About' section='about--section' />
           <NavItem message='Projects' section='portfolio--section' />
           <NavItem message='Resume' section='resume--section' />
           <NavItem message='Contact' section='contact--section' />
