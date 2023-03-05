@@ -8,6 +8,12 @@
   }
 }
 
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+  }
+}
+
 #tsparticles {
   height: 100%;
   position: absolute;

@@ -9,7 +9,7 @@ const Resume = () => {
         <h1 className='text-xl'>View my resume here</h1>
         <a
           href='https://resume.creddle.io/resume/bmcws0s4p86'
-          className='text-3xl border-b-2 border-gray-700 hover:text-purple-500 hover:border-none'
+          className='text-3xl border-b-2 border-zinc-700 hover:text-purple-500 hover:border-none'
           target={"_blank"}
         >
           Resume

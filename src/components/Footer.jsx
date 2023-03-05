@@ -52,7 +52,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className='flex justify-center text-gray-400 mb-10'>
+      <div className='flex justify-center text-zinc-400 mb-10'>
         <a
           href='https://github.com/lucasw4/lucas-sahota'
           target='_blank'

@@ -16,8 +16,8 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='bg-gray-900 text-gray-100 overflow-hidden'>
-        <div className='bg-gradient-to-b from-gray-700 via-gray-800 to-gray-900'>
+      <main className='bg-zinc-900 text-zinc-100 overflow-hidden'>
+        <div className='bg-gradient-to-b from-zinc-700 via-zinc-900 to-zinc-900'>
           <NavBar />
           <Header />
         </div>

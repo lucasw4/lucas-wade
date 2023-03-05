@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <section
       id='nav--bar'
-      className='h-12 bg-gray-900 border-b border-gray-700'
+      className='h-12 bg-zinc-800 border-b border-zinc-700'
     >
       <nav className='flex justify-between p-3 mb-12'>
         <div className='text-xs md:text-xl flex items-center'>

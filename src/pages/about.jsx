@@ -22,7 +22,7 @@ const About = () => {
             .
           </div>
         </div>
-        <div className='mx-16 md:w-fit md:mx-auto md:p-4 border border-gray-700 flex justify-center py-3 mb-10 transition-all hover:shadow-lg hover:shadow-black hover:scale-110'>
+        <div className='mx-16 md:w-fit md:mx-auto md:p-4 border border-zinc-700 flex justify-center py-3 mb-10 transition-all hover:shadow-lg hover:shadow-black hover:scale-110'>
           <a
             target='_blank'
             href='https://www.linkedin.com/in/lucas-wade-0971541b2/'
