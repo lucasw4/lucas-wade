@@ -2,17 +2,20 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
 import Head from "next/head";
-import About from "./about";
-import Contact from "./contact";
-import Portfolio from "./portfolio";
-import Resume from "./resume";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Portfolio from "../components/Portfolio";
+import Resume from "../components/Resume";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Lucas Wade&apos;s Portfolio</title>
-        <meta name='description' content='Lucas Wade portfolio website' />
+        <title>Lucas Wade</title>
+        <meta
+          name='description'
+          content='A portfolio website for Lucas Wade. Lucas Wade is a web developer, with a specialty in Front-End work. He is also a capable Full-Stack developer and web designer.'
+        />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>

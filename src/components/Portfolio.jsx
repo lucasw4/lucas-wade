@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import HeaderText from "@/components/HeaderText";
+import Head from "next/head";
 import React from "react";
 
 const projects = [
@@ -41,7 +42,10 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className='bg-zinc-900 py-8 md:mt-40 mt-96' id='portfolio--section'>
+    <section
+      className='bg-zinc-900 py-8 md:mt-40 mt-96'
+      id='portfolio--section'
+    >
       <HeaderText message='Projects' />
       <div className='container mx-auto mt-32'>
         <div className='h-24'></div>
@@ -74,7 +78,7 @@ const Portfolio = () => {
           </strong>
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

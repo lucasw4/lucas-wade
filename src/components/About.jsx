@@ -1,5 +1,6 @@
 import HeaderText from "@/components/HeaderText";
 import Pill from "@/components/Pill";
+import Head from "next/head";
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
@@ -13,11 +14,14 @@ const About = () => {
       <div className='lg:mx-32 flex flex-col h-[40rem] lg:justify-center lg:items-center md:mt-24 mt-32'>
         <div className='h-full flex flex-col justify-center lg:w-1/2'>
           <div className='py-4 pl-4 mx-4 text-2xl'>
-            I&apos;m a <strong className='text-purple-500'>Full-Stack </strong>
-            web developer, but I focus on mainly{" "}
+            I&apos;m{" "}
+            <strong className='text-purple-500 font-bold'>Lucas Wade</strong>, a
+            22 year old <strong className='text-purple-500'>Full-Stack </strong>
+            web developer, but I tend to focus on mainly{" "}
             <strong className='text-purple-500'>front-end </strong>
-            development. I am constantly learning to improve my skills and love
-            learning the latest technologies. Currently I am focused on learning
+            development. I am constantly learning to improve my skills and I
+            love learning the latest technologies. Currently I am focused on
+            learning
             <strong className='text-purple-500'> NextJS</strong> and improving
             my skills with <strong className='text-purple-500'>Tailwind</strong>
             .
@@ -39,9 +43,9 @@ const About = () => {
             <AiFillGithub />
           </a>
         </div>
-        <h1 className='text-xl items-center text-center my-10 font-bold text-zinc-300'>
+        <h2 className='text-xl items-center text-center my-10 font-bold text-zinc-300'>
           Skills
-        </h1>
+        </h2>
         <div className='container grid grid-cols-2 px-10 gap-4 place-items-center md:flex'>
           <Pill text='NextJS' />
           <Pill text='React' />
