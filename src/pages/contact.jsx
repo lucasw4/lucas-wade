@@ -5,10 +5,13 @@ const Contact = () => {
   return (
     <section className='mt-72 mb-60' id='contact--section'>
       <HeaderText message='Contact Me' />
-      <div className='px-5 flex justify-center'>
+      <div className='px-5 flex justify-center mt-24'>
         <div className='text-xl flex py-2'>
           <div className='ml-4 transition-all hover:scale-110 hover:text-purple-500'>
-            <a href='#' className='underline hover:no-underline'>
+            <a
+              href='mailto:lucaswade4@gmail.com'
+              className='underline hover:no-underline'
+            >
               lucaswade4@gmail.com
             </a>
           </div>

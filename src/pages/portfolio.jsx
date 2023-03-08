@@ -41,7 +41,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className='bg-zinc-900 py-8 md:mt-40' id='portfolio--section'>
+    <div className='bg-zinc-900 py-8 md:mt-40 mt-96' id='portfolio--section'>
       <HeaderText message='Projects' />
       <div className='container mx-auto mt-32'>
         <div className='h-24'></div>

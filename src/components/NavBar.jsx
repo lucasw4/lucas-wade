@@ -8,7 +8,7 @@ const NavBar = () => {
       className='h-12 bg-zinc-800 border-b border-zinc-700'
     >
       <nav className='flex justify-between p-3 mb-12'>
-        <div className='text-xs md:text-xl flex items-center'>
+        <div className='text-sm md:text-xl flex items-center'>
           <h1>
             lucas<strong className=''>Wade</strong>
           </h1>

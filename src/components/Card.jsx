@@ -9,10 +9,10 @@ const Card = ({ title, summary, image, link, stack }) => {
           src={image}
           alt={title}
           fill
-          className='rounded-md  shadow-2xl'
+          className='border-zinc-700 border-4'
         />
       </div>
-      <div className='absolute -top-16 left-1 opacity-75 w-96 h-40 bg-zinc-600 rounded-md '></div>
+      <div className='absolute top-[-4.5rem] left-2 opacity-75 w-96 h-40 bg-neutral-900 '></div>
       <div className='p-4 flex-col pt-24'>
         <h2 className='text-lg font-extrabold mb-2'>{title}</h2>
         <p className='text-zinc-200 text-sm mb-4'>{summary}</p>
