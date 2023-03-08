@@ -8,23 +8,26 @@ const About = () => {
   return (
     <section
       id='about--section'
-      className='mt-72 mb-72 md:mt-72 md:mb-0 md:h-[44rem]'
+      className='mt-72 mb-32 md:mt-72 h-full md:mb-0 md:h-[44rem]'
     >
       <HeaderText message='About Me' />
-      <div className='lg:mx-32 flex flex-col h-[40rem] lg:justify-center lg:items-center md:mt-24 mt-32'>
+      <div className='lg:mx-32 flex flex-col h-fit lg:justify-center lg:items-center md:mt-24 mt-32'>
         <div className='h-full flex flex-col justify-center lg:w-1/2'>
-          <div className='py-4 pl-4 mx-4 text-2xl'>
-            I&apos;m{" "}
-            <strong className='text-purple-500 font-bold'>Lucas Wade</strong>, a
-            22 year old <strong className='text-purple-500'>Full-Stack </strong>
-            web developer, but I tend to focus on mainly{" "}
+          <div className='py-4 pl-4 mx-4 text-xl md:text-2xl'>
+            My name is{" "}
+            <strong className='text-purple-500 font-bold'>Lucas Wade</strong>,
+            and I&apos;m a 22 year old{" "}
+            <strong className='text-purple-500'>Full-Stack </strong>
+            web developer. However, I mainly focus on{" "}
             <strong className='text-purple-500'>front-end </strong>
-            development. I am constantly learning to improve my skills and I
-            love learning the latest technologies. Currently I am focused on
-            learning
+            development. I am constantly looking for ways to improve my skills,
+            and I love learning the latest web dev technologies. Currently I am
+            focused on learning
             <strong className='text-purple-500'> NextJS</strong> and improving
             my skills with <strong className='text-purple-500'>Tailwind</strong>
-            .
+            .<div className='h-24'></div>
+            When I&apos;m not creating websites, you can catch me taking photos,
+            reading books, or making music.
           </div>
         </div>
         <div className='mx-16 md:w-fit md:mx-auto md:p-4 border border-zinc-700 flex justify-center py-3 mb-10 transition-all hover:shadow-lg hover:shadow-black hover:scale-110 mt-20'>
