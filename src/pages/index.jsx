@@ -17,7 +17,6 @@ export default function Home() {
           content='A portfolio website for Lucas Wade. Lucas Wade is a web developer, with a specialty in Front-End work. He is also a capable Full-Stack developer and web designer.'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='bg-zinc-900 text-zinc-100 overflow-hidden'>
         <div className='bg-gradient-to-b from-zinc-700 via-zinc-900 to-zinc-900'>

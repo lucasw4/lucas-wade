@@ -1,6 +1,5 @@
 import HeaderText from "@/components/HeaderText";
 import Pill from "@/components/Pill";
-import Head from "next/head";
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
