@@ -43,7 +43,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <section
-      className='bg-zinc-900 py-8 md:mt-96 mt-32'
+      className='bg-zinc-900 py-8 md:mt-32 mt-32'
       id='portfolio--section'
     >
       <HeaderText message='Projects' />

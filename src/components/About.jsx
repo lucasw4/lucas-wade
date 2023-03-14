@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id='about--section'
-      className='mt-72 mb-32 md:mt-72 h-full md:mb-0 md:h-[44rem]'
+      className='mt-72 mb-32 md:mt-72 h-full md:mb-0 md:h-full'
     >
       <HeaderText message='About Me' />
       <div className='lg:mx-32 flex flex-col h-fit lg:justify-center lg:items-center md:mt-24 mt-32'>
@@ -48,7 +48,7 @@ const About = () => {
         <h2 className='text-xl items-center text-center my-10 font-bold text-zinc-300'>
           Skills
         </h2>
-        <div className='container grid grid-cols-2 px-10 gap-4 place-items-center md:flex'>
+        <div className='container grid grid-cols-2 px-10 gap-4 place-items-center min-w-full lg:flex xl:flex-nowrap flex-wrap justify-center'>
           <Pill text='NextJS' />
           <Pill text='React' />
           <Pill text='jQuery' />
