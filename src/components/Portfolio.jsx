@@ -38,6 +38,15 @@ const projects = [
     link: "https://github.com/lucasw4/tweeter",
     stack: "Ajax, JQuery, NodeJS, Express",
   },
+  {
+    id: 5,
+    title: "MyMeals",
+    summary:
+      "A recipe viewing app, where users can conveniently create a meal plan and a grocery list.",
+    image: "/images/mymeals.png",
+    link: "https://github.com/lucasw4/MyMeals",
+    stack: "NextJS, Tailwind, MongoDB",
+  },
 ];
 
 const Portfolio = () => {
