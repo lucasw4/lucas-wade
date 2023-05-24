@@ -1,5 +1,6 @@
 import HeaderText from "@/components/HeaderText";
 import Pill from "@/components/Pill";
+import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
@@ -25,8 +26,13 @@ const About = () => {
             <strong className='text-purple-500'> NextJS</strong> and improving
             my skills with <strong className='text-purple-500'>Tailwind</strong>
             .<div className='h-24'></div>
-            When I&apos;m not creating websites, you can catch me taking photos,
-            reading books, or making music.
+            Feel free to reach out to my{" "}
+            <strong className='text-purple-500'>
+              <Link href='#contact--section' scroll={false}>
+                email
+              </Link>
+            </strong>{" "}
+            if you are interested in working with me.
           </div>
         </div>
         <div className='mx-16 md:w-fit md:mx-auto md:p-4 border border-zinc-700 flex justify-center py-3 mb-10 transition-all hover:shadow-lg hover:shadow-black hover:scale-110 mt-20'>
