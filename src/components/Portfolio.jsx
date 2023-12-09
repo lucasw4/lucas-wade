@@ -47,22 +47,31 @@ const projects = [
     link: "https://github.com/lucasw4/MyMeals",
     stack: "NextJS, Tailwind, MongoDB",
   },
+  {
+    id: 6,
+    title: "LocalUpholster",
+    summary:
+      "A full-stack website being built for a client to advertise and sell various services. Implementation of framer-motion for advanced, responsive animations.",
+    image: "/images/local-upholster.png",
+    link: "https://local-upholster.vercel.app/",
+    stack: "NextJS, Tailwind, Framer-motion",
+  },
 ];
 
 const Portfolio = () => {
   return (
     <section
-      className='bg-zinc-900 py-8 md:mt-32 mt-32'
-      id='portfolio--section'
+      className="bg-zinc-900 py-8 md:mt-32 mt-32"
+      id="portfolio--section"
     >
-      <HeaderText message='Projects' />
-      <div className='container mx-auto mt-32'>
-        <div className='h-24'></div>
-        <div className='flex flex-wrap -mx-4'>
+      <HeaderText message="Projects" />
+      <div className="container mx-auto mt-32">
+        <div className="h-24"></div>
+        <div className="flex flex-wrap -mx-4">
           {projects.map((project) => (
             <div
               key={project.id}
-              className='w-96 mx-auto flex-col items-center sm:w-1/2 md:flex-row mb-14'
+              className="w-96 mx-auto flex-col items-center sm:w-1/2 md:flex-row mb-14"
             >
               <Card
                 title={project.title}
@@ -75,14 +84,14 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-      <div className='flex justify-center'>
+      <div className="flex justify-center">
         <a
-          href='https://github.com/lucasw4'
-          className='text-4xl font-bold transition-all hover:scale-110 hover:text-purple-500 text-center'
-          target='_blank'
+          href="https://github.com/lucasw4"
+          className="text-4xl font-bold transition-all hover:scale-110 hover:text-purple-500 text-center"
+          target="_blank"
         >
           View More on my{" "}
-          <strong className='underline hover:no-underline transition ease-in-out duration-500'>
+          <strong className="underline hover:no-underline transition ease-in-out duration-500">
             GitHub
           </strong>
         </a>
